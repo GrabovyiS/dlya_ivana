@@ -3,6 +3,7 @@ package implementations.database
 import dataTypes.QueryTypes
 import interfaces.DAOConnection
 import java.sql.Connection
+import java.sql.DriverManager
 
 /**
  * класс взаимодействия с БД
