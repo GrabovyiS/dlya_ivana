@@ -9,13 +9,6 @@ import interfaces.Teacher
  * добавляются в таблицу words как контекстные синонимы, чтобы в последствии использовать их для выбора ответа.
  */
 class StatisticTeacher : Teacher {
-    /**
-     * пороговое значение
-     */
-    val thresholdValue: Double = 1.0
-    override fun setThresholdValue(value: Double) {
-        TODO("Not yet implemented")
-    }
     override fun study(input: String): Boolean {
         TODO("Not yet implemented")
     }

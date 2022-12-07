@@ -11,4 +11,10 @@ interface AnswerChooser {
      * не распознанный запрос
      */
     fun getAnswer(question: String): String
+
+    /**
+     * сеттер пороргового значения, пересечение которого считается успехом в распознавании
+     * @param value пороговое значение
+     */
+    fun setThresholdValue(value: Double)
 }
